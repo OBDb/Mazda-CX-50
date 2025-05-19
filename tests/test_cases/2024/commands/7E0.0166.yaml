@@ -1,0 +1,10 @@
+command_id: 7E0.0166
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80741660106FB0000
+  expected_values:
+    MAFA: 55.84375
+    MAFA_SUP: 1
+    MAFB: 0
+    MAFB_SUP: 0
