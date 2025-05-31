@@ -1,8 +1,7 @@
 { "commands": [
 { "hdr": "720", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "from": 2026, "to": 2023 },
   "signals": [
-    {"id": "CX50_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55,  "unit": "liters" }, "name": "Fuel level"},
-    {"id": "CX50_FLV",        "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "CX50_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level"}
   ]},
 { "hdr": "726", "cmd": {"22": "D922"}, "freq": 1, "dbgfilter": { "from": 2025, "to": 2023 },
   "signals": [
