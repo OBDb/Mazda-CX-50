@@ -2,16 +2,16 @@ command_id: 726.22D925
 test_cases:
 - response: 72E0462D925C2
   expected_values:
-    MAZDA_TP_RR: 38.8
+    CX50_TP_RR: 38.8
 - response: 72E0462D925C3
   expected_values:
-    MAZDA_TP_RR: 39
+    CX50_TP_RR: 39.0
 - response: 72E0462D925CA
   expected_values:
-    MAZDA_TP_RR: 40.4
+    CX50_TP_RR: 40.4
 - response: 72E0462D925CC
   expected_values:
-    MAZDA_TP_RR: 40.8
+    CX50_TP_RR: 40.8
 - response: 72E0462D925CE
   expected_values:
-    MAZDA_TP_RR: 41.2
+    CX50_TP_RR: 41.2
