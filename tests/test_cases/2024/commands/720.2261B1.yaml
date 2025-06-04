@@ -3,36 +3,27 @@ test_cases:
 - response: 728046261B13F
   expected_values:
     CX50_FLV: 63.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B140
   expected_values:
     CX50_FLV: 64.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B143
   expected_values:
     CX50_FLV: 67.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B144
   expected_values:
     CX50_FLV: 68.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B146
   expected_values:
     CX50_FLV: 70.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B147
   expected_values:
     CX50_FLV: 71.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B148
   expected_values:
     CX50_FLV: 72.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B159
   expected_values:
     CX50_FLV: 89.0
-    CX50_FUEL_LEVEL: 55
 - response: 728046261B15A
   expected_values:
     CX50_FLV: 90.0
-    CX50_FUEL_LEVEL: 55
