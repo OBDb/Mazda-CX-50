@@ -1,38 +1,38 @@
 command_id: 720.2261B1
 test_cases:
-- response: 728046261B13F
-  expected_values:
+- expected_values:
     MAZDA_FLV: 63
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B140
-  expected_values:
+  response: 728046261B13F
+- expected_values:
     MAZDA_FLV: 64
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B143
-  expected_values:
+  response: 728046261B140
+- expected_values:
     MAZDA_FLV: 67
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B144
-  expected_values:
+  response: 728046261B143
+- expected_values:
     MAZDA_FLV: 68
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B146
-  expected_values:
+  response: 728046261B144
+- expected_values:
     MAZDA_FLV: 70
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B147
-  expected_values:
+  response: 728046261B146
+- expected_values:
     MAZDA_FLV: 71
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B148
-  expected_values:
+  response: 728046261B147
+- expected_values:
     MAZDA_FLV: 72
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B159
-  expected_values:
+  response: 728046261B148
+- expected_values:
     MAZDA_FLV: 89
     MAZDA_FUEL_LEVEL: 55
-- response: 728046261B15A
-  expected_values:
+  response: 728046261B159
+- expected_values:
     MAZDA_FLV: 90
     MAZDA_FUEL_LEVEL: 55
+  response: 728046261B15A

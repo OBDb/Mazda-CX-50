@@ -1,0 +1,8 @@
+command_id: 726.22D923
+test_cases:
+- expected_values:
+    MAZDA_TP_FR: 32.4
+  response: 72E0462D923A2
+- expected_values:
+    MAZDA_TP_FR: 36.2
+  response: 72E0462D923B5
