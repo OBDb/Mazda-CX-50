@@ -1,38 +1,38 @@
 command_id: 720.2261B1
 test_cases:
 - expected_values:
-    MAZDA_FLV: 63
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 63.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B13F
 - expected_values:
-    MAZDA_FLV: 64
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 64.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B140
 - expected_values:
-    MAZDA_FLV: 67
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 67.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B143
 - expected_values:
-    MAZDA_FLV: 68
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 68.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B144
 - expected_values:
-    MAZDA_FLV: 70
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 70.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B146
 - expected_values:
-    MAZDA_FLV: 71
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 71.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B147
 - expected_values:
-    MAZDA_FLV: 72
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 72.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B148
 - expected_values:
-    MAZDA_FLV: 89
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 89.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B159
 - expected_values:
-    MAZDA_FLV: 90
-    MAZDA_FUEL_LEVEL: 55
+    CX50_FLV: 90.0
+    CX50_FUEL_LEVEL: 55
   response: 728046261B15A
