@@ -1,26 +1,26 @@
 command_id: 726.22D925
 test_cases:
 - expected_values:
-    MAZDA_TP_RR: 34.6
+    CX50_TP_RR: 34.6
   response: 72E0462D925AD
 - expected_values:
-    MAZDA_TP_RR: 35.2
+    CX50_TP_RR: 35.2
   response: 72E0462D925B0
 - expected_values:
-    MAZDA_TP_RR: 35.4
+    CX50_TP_RR: 35.4
   response: 72E0462D925B1
 - expected_values:
-    MAZDA_TP_RR: 38.8
+    CX50_TP_RR: 38.8
   response: 72E0462D925C2
 - expected_values:
-    MAZDA_TP_RR: 39
+    CX50_TP_RR: 39.0
   response: 72E0462D925C3
 - expected_values:
-    MAZDA_TP_RR: 40.4
+    CX50_TP_RR: 40.4
   response: 72E0462D925CA
 - expected_values:
-    MAZDA_TP_RR: 40.8
+    CX50_TP_RR: 40.8
   response: 72E0462D925CC
 - expected_values:
-    MAZDA_TP_RR: 41.2
+    CX50_TP_RR: 41.2
   response: 72E0462D925CE
