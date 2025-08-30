@@ -1,17 +1,17 @@
 command_id: 726.22D926
 test_cases:
 - expected_values:
-    MAZDA_TT_FL: 15
+    CX50_TT_FL: 15.0
   response: 72E0462D92641
 - expected_values:
-    MAZDA_TT_FL: 29
+    CX50_TT_FL: 29.0
   response: 72E0462D9264F
 - expected_values:
-    MAZDA_TT_FL: 34
+    CX50_TT_FL: 34.0
   response: 72E0462D92654
 - expected_values:
-    MAZDA_TT_FL: 38
+    CX50_TT_FL: 38.0
   response: 72E0462D92658
 - expected_values:
-    MAZDA_TT_FL: 40
+    CX50_TT_FL: 40.0
   response: 72E0462D9265A
