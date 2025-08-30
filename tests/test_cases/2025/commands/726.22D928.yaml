@@ -1,5 +1,5 @@
 command_id: 726.22D928
 test_cases:
 - expected_values:
-    MAZDA_TT_RL: 19
+    CX50_TT_RL: 19.0
   response: 72E0462D92845
