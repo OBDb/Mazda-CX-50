@@ -1,11 +1,11 @@
 command_id: 7E0.220415
 test_cases:
 - expected_values:
-    CX50_EOP: 127.0
+    CX50_EOP: 127
   response: 7E805620415007F
 - expected_values:
-    CX50_EOP: 250.0
+    CX50_EOP: 250
   response: 7E80562041500FA
 - expected_values:
-    CX50_EOP: 270.0
+    CX50_EOP: 270
   response: 7E805620415010E
