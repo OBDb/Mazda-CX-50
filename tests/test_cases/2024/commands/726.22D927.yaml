@@ -1,23 +1,26 @@
 command_id: 726.22D927
 test_cases:
 - expected_values:
-    CX50_TT_FR: 14.0
+    CX50_TT_FR: 14
   response: 72E0462D92740
 - expected_values:
-    CX50_TT_FR: 15.0
+    CX50_TT_FR: 15
   response: 72E0462D92741
 - expected_values:
-    CX50_TT_FR: 27.0
+    CX50_TT_FR: 27
   response: 72E0462D9274D
 - expected_values:
-    CX50_TT_FR: 28.0
+    CX50_TT_FR: 28
   response: 72E0462D9274E
 - expected_values:
-    CX50_TT_FR: 29.0
+    CX50_TT_FR: 29
   response: 72E0462D9274F
 - expected_values:
-    CX50_TT_FR: 31.0
+    CX50_TT_FR: 31
   response: 72E0462D92751
 - expected_values:
-    CX50_TT_FR: 42.0
+    CX50_TT_FR: 36
+  response: 72E0462D92756
+- expected_values:
+    CX50_TT_FR: 42
   response: 72E0462D9275C
