@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220915
+test_cases:
+- expected_values:
+    CX50_APP2_V: 1.782
+  response: 7E80562091506F6
+- expected_values:
+    CX50_APP2_V: 1.942
+  response: '7E8056209150796'
+- expected_values:
+    CX50_APP2_V: 2.053
+  response: '7E8056209150805'
+- expected_values:
+    CX50_APP2_V: 2.097
+  response: '7E8056209150831'
+- expected_values:
+    CX50_APP2_V: 2.346
+  response: 7E805620915092A
+- expected_values:
+    CX50_APP2_V: 2.347
+  response: 7E805620915092B
+- expected_values:
+    CX50_APP2_V: 2.348
+  response: 7E805620915092C
