@@ -4,26 +4,11 @@ test_cases:
     CX50_TP1_V: 0.614
   response: '7E8056209170266'
 - expected_values:
-    CX50_TP1_V: 0.687
-  response: 7E80562091702AF
-- expected_values:
-    CX50_TP1_V: 0.737
-  response: 7E80562091702E1
-- expected_values:
     CX50_TP1_V: 0.754
   response: 7E80562091702F2
 - expected_values:
     CX50_TP1_V: 0.771
   response: '7E8056209170303'
 - expected_values:
-    CX50_TP1_V: 0.943
-  response: 7E80562091703AF
-- expected_values:
-    CX50_TP1_V: 1.122
-  response: '7E8056209170462'
-- expected_values:
-    CX50_TP1_V: 1.179
-  response: 7E805620917049B
-- expected_values:
-    CX50_TP1_V: 2.018
-  response: 7E80562091707E2
+    CX50_TP1_V: 3.642
+  response: 7E8056209170E3A
