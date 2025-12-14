@@ -4,29 +4,5 @@ test_cases:
     CX50_FLV: 63
   response: 728046261B13F
 - expected_values:
-    CX50_FLV: 64
-  response: 728046261B140
-- expected_values:
-    CX50_FLV: 67
-  response: 728046261B143
-- expected_values:
-    CX50_FLV: 68
-  response: 728046261B144
-- expected_values:
-    CX50_FLV: 70
-  response: 728046261B146
-- expected_values:
-    CX50_FLV: 71
-  response: 728046261B147
-- expected_values:
-    CX50_FLV: 72
-  response: 728046261B148
-- expected_values:
-    CX50_FLV: 76
-  response: 728046261B14C
-- expected_values:
-    CX50_FLV: 89
-  response: 728046261B159
-- expected_values:
     CX50_FLV: 90
   response: 728046261B15A

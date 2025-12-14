@@ -1,5 +1,23 @@
 command_id: 7E0.7E8.220917
 test_cases:
 - expected_values:
+    CX50_TP1_V: 0.638
+  response: 7E805620917027E
+- expected_values:
+    CX50_TP1_V: 0.64
+  response: '7E8056209170280'
+- expected_values:
+    CX50_TP1_V: 0.641
+  response: '7E8056209170281'
+- expected_values:
+    CX50_TP1_V: 0.645
+  response: '7E8056209170285'
+- expected_values:
+    CX50_TP1_V: 0.646
+  response: '7E8056209170286'
+- expected_values:
+    CX50_TP1_V: 0.647
+  response: '7E8056209170287'
+- expected_values:
     CX50_TP1_V: 0.649
   response: '7E8056209170289'
