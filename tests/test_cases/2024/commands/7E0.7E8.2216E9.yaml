@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216E9
+test_cases:
+- expected_values:
+    CX50_GEN_V: 14.875
+  response: 7E8056216E90077
