@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX50_APP1_V: 0.794
   response: 7E805620914031A
+- expected_values:
+    CX50_APP1_V: 0.795
+  response: 7E805620914031B
