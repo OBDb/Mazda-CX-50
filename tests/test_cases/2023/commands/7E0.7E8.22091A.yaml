@@ -4,26 +4,11 @@ test_cases:
     CX50_ETC_DSD_DEG: 1.44727
   response: 7E80562091A02E5
 - expected_values:
-    CX50_ETC_DSD_DEG: 3.38867
-  response: 7E80562091A06C7
+    CX50_ETC_DSD_DEG: 10.52344
+  response: 7E80562091A150C
 - expected_values:
-    CX50_ETC_DSD_DEG: 4.1582
-  response: 7E80562091A0851
+    CX50_ETC_DSD_DEG: 13.4668
+  response: 7E80562091A1AEF
 - expected_values:
-    CX50_ETC_DSD_DEG: 4.83008
-  response: 7E80562091A09A9
-- expected_values:
-    CX50_ETC_DSD_DEG: 5.71094
-  response: 7E80562091A0B6C
-- expected_values:
-    CX50_ETC_DSD_DEG: 9.14453
-  response: 7E80562091A124A
-- expected_values:
-    CX50_ETC_DSD_DEG: 14.79883
-  response: 7E80562091A1D99
-- expected_values:
-    CX50_ETC_DSD_DEG: 18.56445
-  response: 7E80562091A2521
-- expected_values:
-    CX50_ETC_DSD_DEG: 21.4668
-  response: 7E80562091A2AEF
+    CX50_ETC_DSD_DEG: 28.77148
+  response: 7E80562091A398B
