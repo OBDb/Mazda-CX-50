@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.2216E8
 test_cases:
 - expected_values:
-    CX50_GEN_FC: 19.89166
-  response: 7E8056216E81976
+    CX50_GEN_FC: 19.1989
+  response: 7E8056216E81893
 - expected_values:
-    CX50_GEN_FC: 20.70954
-  response: 7E8056216E81A82
+    CX50_GEN_FC: 21.10628
+  response: 7E8056216E81B04
 - expected_values:
-    CX50_GEN_FC: 21.9089
-  response: 7E8056216E81C0B
+    CX50_GEN_FC: 34.36637
+  response: 7E8056216E82BFD
 - expected_values:
-    CX50_GEN_FC: 22.01572
-  response: 7E8056216E81C2E
-- expected_values:
-    CX50_GEN_FC: 22.21714
-  response: 7E8056216E81C70
-- expected_values:
-    CX50_GEN_FC: 22.26596
-  response: 7E8056216E81C80
-- expected_values:
-    CX50_GEN_FC: 31.2871
-  response: 7E8056216E8280C
-- expected_values:
-    CX50_GEN_FC: 33.0663
-  response: 7E8056216E82A53
-- expected_values:
-    CX50_GEN_FC: 38.87388
-  response: 7E8056216E831C2
+    CX50_GEN_FC: 38.83726
+  response: 7E8056216E831B6
