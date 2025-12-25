@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220917
+test_cases:
+- expected_values:
+    CX50_TP1_V: 0.767
+  response: 7E80562091702FF

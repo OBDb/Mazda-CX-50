@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220915
+test_cases:
+- expected_values:
+    CX50_APP2_V: 2.346
+  response: 7E805620915092A
