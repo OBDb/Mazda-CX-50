@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     CX50_TRANS_T_V2: 66.2
   response: 7E905621E1C0130
+- expected_values:
+    CX50_TRANS_T_V2: 117.8375
+  response: 7E905621E1C02FB
+- expected_values:
+    CX50_TRANS_T_V2: 119.975
+  response: 7E905621E1C030E
+- expected_values:
+    CX50_TRANS_T_V2: 123.2375
+  response: 7E905621E1C032B
+- expected_values:
+    CX50_TRANS_T_V2: 128.525
+  response: 7E905621E1C035A
+- expected_values:
+    CX50_TRANS_T_V2: 131.7875
+  response: 7E905621E1C0377
+- expected_values:
+    CX50_TRANS_T_V2: 135.725
+  response: 7E905621E1C039A
+- expected_values:
+    CX50_TRANS_T_V2: 139.775
+  response: 7E905621E1C03BE
+- expected_values:
+    CX50_TRANS_T_V2: 140.5625
+  response: 7E905621E1C03C5
