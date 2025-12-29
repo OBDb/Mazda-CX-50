@@ -1,8 +1,8 @@
 command_id: 726.72E.22D923
 test_cases:
 - expected_values:
-    CX50_TP_FR: 29.6
-  response: 72E0462D92394
+    CX50_TP_FR: 28.8
+  response: 72E0462D92390
 - expected_values:
     CX50_TP_FR: 44.4
   response: 72E0462D923DE
