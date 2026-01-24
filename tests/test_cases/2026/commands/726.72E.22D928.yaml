@@ -1,0 +1,14 @@
+command_id: 726.72E.22D928
+test_cases:
+- expected_values:
+    CX50_TT_RL: 0
+  response: 72E0462D92832
+- expected_values:
+    CX50_TT_RL: 1
+  response: 72E0462D92833
+- expected_values:
+    CX50_TT_RL: 2
+  response: 72E0462D92834
+- expected_values:
+    CX50_TT_RL: 3
+  response: 72E0462D92835
