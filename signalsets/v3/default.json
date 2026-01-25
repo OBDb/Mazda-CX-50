@@ -3,9 +3,77 @@
   "signals": [
     {"id": "CX50_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "723", "dbg": true, "cmd": {"22": "DD05"}, "freq": 1,
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "480D"}, "freq": 1, "filter": { "from": 2025 },
   "signals": [
-    {"id": "CX50_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+    {"id": "CX50_HVBAT_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "mul": 10, "div": 1000, "unit": "volts" }, "name": "Battery pack voltage", "suggestedMetric": "tractionBatteryVoltage"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "D90E"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_12V_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "volts" }, "name": "12V battery voltage"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "D914"}, "freq": 1, "filter": { "from": 2025 },
+  "signals": [
+    {"id": "CX50_HV_EV_BATT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "High voltage battery state of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "DCE1"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_IG_ON_TIMER", "path": "Engine", "fmt": { "len": 16, "max": 1092.25, "div": 60, "unit": "minutes" }, "name": "Engine runtime"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "DCE2"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_12V_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "12V battery state of charge"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "DD01"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "DD05"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "F40C"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_ENGINE_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "F40D"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_VEHICLE_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "F41F"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_ENGINE_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Engine run time"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DD8B"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_MOTOR_TRQ_REQ", "path": "Engine", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "newtonMeters" }, "name": "Motor torque, requested"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DD8C"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_COOL_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "fahrenheit" }, "name": "Coolant temperature"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDAF"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_CAPACITOR_V", "path": "Battery", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "volts" }, "name": "Capacitor voltage"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDB1"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_MOTOR_AAT", "path": "Engine", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "celsius" }, "name": "Motor ambient air temperature"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDB3"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_IGBT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "celsius" }, "name": "Insulated gate bipolar transistor temperature"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDC3"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX50_MOTOR_RPM", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Motor RPM"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDEF"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_MOTOR_IAT", "path": "Climate", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "celsius" }, "name": "Motor internal temperature"}
+  ]},
+{ "hdr": "725", "rax": "72D", "dbg": true, "cmd": {"22": "DDF4"}, "freq": 1,
+  "signals": [
+    {"id": "CX50_MOTOR_TRQ_EST", "path": "Engine", "fmt": { "len": 16, "max": 12757, "min": -350, "div": 5, "add": -350, "unit": "newtonMeters" }, "name": "Motor torque, estimated"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 5, "dbgfilter": { "from": 2027 },
   "signals": [
@@ -39,10 +107,6 @@
   "signals": [
     {"id": "CX50_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0200"}, "freq": 3600,
-  "signals": [
-    {"id": "CX50_DTC_CNT", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "CX50_DTC_CNTD", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs, on demand"}
@@ -62,10 +126,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0522"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "CX50_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0900"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Manifold absolute pressure voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 0.5, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -91,104 +151,9 @@
   "signals": [
     {"id": "CX50_ETC_ACT_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle position actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0967"}, "freq": 0.25,
-  "signals": [
-    {"id": "CX50_FAN3_SW", "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0968"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_GEN_CHRGLP", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Generator warning light"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "096E"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_IDLE", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Idle speed"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "097C"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_GEN_DSD_V", "path": "Engine", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "volts" }, "name": "Generator voltage, desired"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "098E"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_EGRP_STEPS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Exhaust gas recirculation purge steps"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1101"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_PSP_SW",    "path": "Engine",       "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Power steering position switch"},
-    {"id": "CX50_INGEAR_SW", "path": "Transmission", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "In gear switch"},
-    {"id": "CX50_BOO_SW",    "path": "Engine",       "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake on/off switch"},
-    {"id": "CX50_ACCS_SW",   "path": "Engine",       "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C relay"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1103"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_MIL_SW",  "path": "DTCs",   "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Malfunction indicator lamp"},
-    {"id": "CX50_IMRC_SW", "path": "Engine", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Intake manifold runner control"},
-    {"id": "CX50_FAN2_SW", "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"},
-    {"id": "CX50_FAN1_SW", "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1104"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_AC_REQ_SW", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C refrigerant pressure switch"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114A"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_IAT_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Intake air temp voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114D"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_ECT_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Engine coolant temp voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1169"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_TPCT", "path": "Engine", "fmt": { "len": 16, "max": 1023.984375, "div": 64, "unit": "volts" }, "name": "Throttle position closed voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1174"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_O2S12_A_V", "path": "Engine", "fmt": { "len": 16, "max": 63.99, "div": 1024, "unit": "volts" }, "name": "O2 sensor 1-2 voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1177"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_MAF_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Mass air-flow voltage"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1310"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "CX50_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1340"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_APP", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position, full range"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1410"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_FUEL_PW", "path": "Fuel", "fmt": { "len": 16, "max": 524.28, "div": 125, "unit": "scalar" }, "name": "Injector fuel pulse width"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "160D"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_IMTV_SW", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Variable intake air control"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_O2S_HTR12_SW", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "O2 sensor 2 heater control, rear"},
-    {"id": "CX50_O2S_HTR11_SW", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "O2 sensor 1 heater control, front"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163E"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_O2S12_FT", "path": "Engine", "fmt": { "len": 16, "max": 799.98, "mul": 100, "div": 8192, "unit": "percent" }, "name": "Rear O2 sensor fuel trim"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16B3"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_BARO_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "BARO sensor voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CD"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_VT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "degrees" }, "name": "Valve timing actual"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CE"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_VT_DIFF", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "degrees" }, "name": "Valve timing error"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CF"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_VT_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Valve timing OCV control duty"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -197,58 +162,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "CX50_GEN_V", "path": "Engine", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "volts" }, "name": "Generator output voltage"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16F0"}, "freq": 86400,
-  "signals": [
-    {"id": "CX50_TIRESIZE", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire revolutions per mile"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1706"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LAMBDA_MOD_SW", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Lambda modification switch"},
-    {"id": "CX50_HIDET_SW",      "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "High detonation switch"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1718"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_FP_RELAY_SW", "path": "Fuel", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Fuel pump relay switch"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1746"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_KNOCKR", "path": "Engine", "fmt": { "len": 8, "max": 89.78, "mul": 100, "div": 284, "unit": "degrees" }, "name": "Knock retard"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F4"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LDP_MON_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036765, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP LDP monitoring current"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F5"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LDP_REF_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036765, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP LDP reference current"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F7"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LDP_IDL_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036765, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP LDP idle current"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F8"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LDP_SL_DV", "path": "Emissions", "fmt": { "len": 16, "max": 0.036765, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP LDP small leak detect value"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17FA"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_LDP_EVAPCP", "path": "Emissions", "fmt": { "len": 16, "max": 0.036765, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP LDP incorrect purge flow value"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "A211"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_IVS_SW", "path": "Engine",       "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle validation switch"},
-    {"id": "CX50_PNP_SW", "path": "Transmission", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Park neutral position switch"},
-    {"id": "CX50_BPA_SW", "path": "Engine",       "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake pressure applied switch"},
-    {"id": "CX50_CPP_SW", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Clutch pedal position switch"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "A216"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_SCCS_V", "path": "Cruise control", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Cruise control voltage", "description": "0.0V = On/Off Switch depressed, 1.1V = Cancel depressed, 3.1V = Set/- switch depressed, 4.2V = Res/+ switch depressed, 5.0V = Normal"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "17B3"}, "freq": 1,
-  "signals": [
-    {"id": "CX50_TRANS_T", "path": "Transmission", "fmt": { "len": 8, "max": 371.4, "min": -57, "mul": 42, "div": 25, "add": -57, "unit": "fahrenheit" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "from": 2026 },
   "signals": [
