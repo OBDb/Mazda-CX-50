@@ -342,46 +342,46 @@
         }}
     }
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "dbg": true, "cmd": {"22": "0103"}, "freq": 10,
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_ODO_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1040"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1040"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_TRANSAXLE_OIL_T", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transaxle oil temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "dbg": true, "cmd": {"22": "106C"}, "freq": 5, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, max"},
     {"id": "CX50HYBRID_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge, min"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1075"}, "freq": 0.1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1075"}, "freq": 0.1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_FR_WHEEL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "CX50HYBRID_FL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "CX50HYBRID_RR_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "CX50HYBRID_RL_WHEEL_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A1"}, "freq": 0.25, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A1"}, "freq": 0.25, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_RPM", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "rpm"          }, "name": "Motor RPM"},
     {"id": "CX50HYBRID_TQ",  "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Motor torque"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A2"}, "freq": 0.25, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A2"}, "freq": 0.25, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_RM_TQ_REQ", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768,           "add": -32768, "unit": "newtonMeters" }, "name": "Rear motor torque, requested"},
     {"id": "CX50HYBRID_RM_TQ",     "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 4095,  "min": -4096,  "div": 8, "add": -4096,  "unit": "newtonMeters" }, "name": "Rear motor torque"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10A6"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10A6"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_RM_INVRT_COOL_T", "path": "Engine", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Rear motor inverter, coolant temperature"},
     {"id": "CX50HYBRID_M_INVRT_MAX_T",   "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Motor inverter, maximum temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "10B2"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "10B2"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_INVRT_COOLANT_T", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -40, "unit": "celsius" }, "name": "Inverter coolant temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "15EE"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "15EE"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_12V_V", "path": "Battery", "fmt": { "len": 8, "max": 80.2, "mul": 0.31448, "add": 0.0125, "unit": "volts" }, "name": "12V battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -405,23 +405,23 @@
   "signals": [
     {"id": "CX50HYBRID_HVBAT_MIN_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery minimum temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F05"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F05"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_COOL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "dbg": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F46"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_AAT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F49"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F49"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_ACC_PEDAL_POS_1", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 1"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F4A"}, "freq": 1, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F4A"}, "freq": 1, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_ACC_PEDAL_POS_2", "path": "Control", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal, position 2"}
   ]},
@@ -429,7 +429,7 @@
   "signals": [
     {"id": "CX50HYBRID_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1F9A"}, "freq": 0.5, "filter": { "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1F9A"}, "freq": 0.5, "filter": { "from": 2025 }, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX50HYBRID_HVBAT_V", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1023,                   "mul": 156.25, "div": 10000,               "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"},
     {"id": "CX50HYBRID_HVBAT_C", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 3276.7, "min": -3276.8,                "div": 10,    "sign": true, "unit": "amps"  }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}

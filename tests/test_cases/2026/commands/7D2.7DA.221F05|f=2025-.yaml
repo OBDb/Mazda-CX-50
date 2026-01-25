@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F05|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_COOL_T: 75
+  response: 7DA04621F0573
+- expected_values:
+    CX50HYBRID_COOL_T: 76
+  response: 7DA04621F0574
+- expected_values:
+    CX50HYBRID_COOL_T: 77
+  response: 7DA04621F0575
+- expected_values:
+    CX50HYBRID_COOL_T: 80
+  response: 7DA04621F0578

@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221F9A|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_HVBAT_C: 0
+    CX50HYBRID_HVBAT_V: 264
+  response: |-
+    7DA1009621F9A0E0042
+    7DA2100000000000000
+- expected_values:
+    CX50HYBRID_HVBAT_C: 0
+    CX50HYBRID_HVBAT_V: 265
+  response: |-
+    7DA1009621F9A0E0042
+    7DA2140000000000000

@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.2210B2|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_INVRT_COOLANT_T: 15
+  response: 7DA046210B237
