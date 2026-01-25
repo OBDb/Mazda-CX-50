@@ -1,0 +1,20 @@
+command_id: 7D2.7DA.2210A1|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_RPM: 0
+    CX50HYBRID_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210003007FFF0000
+- expected_values:
+    CX50HYBRID_RPM: 0
+    CX50HYBRID_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100030080000000
+- expected_values:
+    CX50HYBRID_RPM: 1
+    CX50HYBRID_TQ: 0
+  response: |-
+    7DA100C6210A1800180
+    7DA2100030080000000

@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.220103|fc=1
+test_cases:
+- expected_values:
+    CX50HYBRID_ODO_V2: 125
+  response: 7DA076201030000007D
+- expected_values:
+    CX50HYBRID_ODO_V2: 125
+  response: 7DA076201030200007D
