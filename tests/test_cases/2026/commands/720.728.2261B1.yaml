@@ -4,6 +4,9 @@ test_cases:
     CX50_FLV: 0
   response: 728046261B100
 - expected_values:
+    CX50_FLV: 94
+  response: 728046261B15E
+- expected_values:
     CX50_FLV: 98
   response: 728046261B162
 - expected_values:
