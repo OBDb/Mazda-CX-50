@@ -1,17 +1,8 @@
 command_id: 7D2.7DA.221F5B|fc=1,f=2025-
 test_cases:
 - expected_values:
-    CX50HYBRID_SOC: 51.37255
-  response: 7DA04621F5B83
+    CX50HYBRID_SOC: 40.39216
+  response: 7DA04621F5B67
 - expected_values:
-    CX50HYBRID_SOC: 51.76471
-  response: 7DA04621F5B84
-- expected_values:
-    CX50HYBRID_SOC: 67.84314
-  response: 7DA04621F5BAD
-- expected_values:
-    CX50HYBRID_SOC: 68.23529
-  response: 7DA04621F5BAE
-- expected_values:
-    CX50HYBRID_SOC: 68.62745
-  response: 7DA04621F5BAF
+    CX50HYBRID_SOC: 76.07843
+  response: 7DA04621F5BC2
