@@ -4,5 +4,5 @@ test_cases:
     CX50HYBRID_SOC: 40.39216
   response: 7DA04621F5B67
 - expected_values:
-    CX50HYBRID_SOC: 76.07843
-  response: 7DA04621F5BC2
+    CX50HYBRID_SOC: 80
+  response: 7DA04621F5BCC
