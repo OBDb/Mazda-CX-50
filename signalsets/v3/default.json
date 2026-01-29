@@ -332,7 +332,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "fcm1": true, "dbg": true, "cmd": {"22": "1022"}, "freq": 1, "filter": { "from": 2025 },
   "signals": [
-    {"id": "CX50HYBRID_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+    {"id": "CX50HYBRID_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 655, "div": 100, "nullmin": 0, "nullmax": 655, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "7D0", "rax": "7DA", "dbg": true, "cmd": {"21": "62"}, "freq": 1, "filter": { "from": 2025 },
   "signals": [
