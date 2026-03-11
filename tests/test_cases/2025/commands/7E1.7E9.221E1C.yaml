@@ -4,8 +4,8 @@ test_cases:
     CX50_TRANS_T_V2: 58.4375
   response: 7E905621E1C00EB
 - expected_values:
-    CX50_TRANS_T_V2: 89.2625
-  response: 7E905621E1C01FD
+    CX50_TRANS_T_V2: 118.2875
+  response: 7E905621E1C02FF
 - expected_values:
-    CX50_TRANS_T_V2: 119.8625
-  response: 7E905621E1C030D
+    CX50_TRANS_T_V2: 118.85
+  response: 7E905621E1C0304
