@@ -4,11 +4,11 @@ test_cases:
     CX50_GEN_FC: 21.32296
   response: 7E8056216E81B4B
 - expected_values:
-    CX50_GEN_FC: 24.29541
-  response: 7E8056216E81F19
-- expected_values:
     CX50_GEN_FC: 29.66049
   response: 7E8056216E825F7
+- expected_values:
+    CX50_GEN_FC: 32.87404
+  response: 7E8056216E82A14
 - expected_values:
     CX50_GEN_FC: 49.3019
   response: 7E8056216E83F1B
