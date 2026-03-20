@@ -4,5 +4,5 @@ test_cases:
     CX50_TP_FL: 30.8
   response: 72E0462D9229A
 - expected_values:
-    CX50_TP_FL: 37.6
-  response: 72E0462D922BC
+    CX50_TP_FL: 39
+  response: 72E0462D922C3
