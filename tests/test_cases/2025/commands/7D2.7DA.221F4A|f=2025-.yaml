@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221F4A|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_ACC_PEDAL_POS_2: 30.98039
+  response: 7DA04621F4A4F

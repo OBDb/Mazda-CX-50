@@ -1,0 +1,10 @@
+command_id: 7D2.7DA.22106C|fc=1,f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_HVBAT_SOC_MAX: 60.5
+    CX50HYBRID_HVBAT_SOC_MIN: 39
+  response: 7DA0662106C79794E
+- expected_values:
+    CX50HYBRID_HVBAT_SOC_MAX: 60.5
+    CX50HYBRID_HVBAT_SOC_MIN: 50
+  response: 7DA0662106C797964
