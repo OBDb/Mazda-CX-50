@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.2215EE|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_12V_V: 12.90618
+  response: 7DA056215EE29C0
+- expected_values:
+    CX50HYBRID_12V_V: 12.90618
+  response: 7DA056215EE29FE
+- expected_values:
+    CX50HYBRID_12V_V: 13.22066
+  response: 7DA056215EE2A02

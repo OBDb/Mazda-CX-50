@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.221040|f=2025-
+test_cases:
+- expected_values:
+    CX50HYBRID_TRANSAXLE_OIL_T: 25
+  response: 7DA06621040C76041
+- expected_values:
+    CX50HYBRID_TRANSAXLE_OIL_T: 25
+  response: 7DA06621040C7F041
+- expected_values:
+    CX50HYBRID_TRANSAXLE_OIL_T: 22
+  response: 7DA06621040CAC03E
+- expected_values:
+    CX50HYBRID_TRANSAXLE_OIL_T: 22
+  response: 7DA06621040CB003E
