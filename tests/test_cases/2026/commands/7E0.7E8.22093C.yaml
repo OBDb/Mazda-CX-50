@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    CX50_ETC_ACT_DEG: 0.30664
+  response: 7E80562093C009D
+- expected_values:
+    CX50_ETC_ACT_DEG: 2.49805
+  response: 7E80562093C04FF
+- expected_values:
+    CX50_ETC_ACT_DEG: 3
+  response: 7E80562093C0600
+- expected_values:
+    CX50_ETC_ACT_DEG: 25.15625
+  response: 7E80562093C3250
