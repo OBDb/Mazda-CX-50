@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221310
+test_cases:
+- expected_values:
+    CX50_EOT: 30.92
+  response: 7E8056213101BB4
+- expected_values:
+    CX50_EOT: 52.14
+  response: 7E80562131023FE
+- expected_values:
+    CX50_EOT: 52.16
+  response: '7E8056213102400'
+- expected_values:
+    CX50_EOT: 85.49
+  response: '7E8056213103105'
