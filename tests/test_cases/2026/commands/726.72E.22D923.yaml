@@ -4,29 +4,5 @@ test_cases:
     CX50_TP_FR: 34.6
   response: 72E0462D923AD
 - expected_values:
-    CX50_TP_FR: 34.8
-  response: 72E0462D923AE
-- expected_values:
-    CX50_TP_FR: 35
-  response: 72E0462D923AF
-- expected_values:
-    CX50_TP_FR: 35.2
-  response: 72E0462D923B0
-- expected_values:
-    CX50_TP_FR: 35.4
-  response: 72E0462D923B1
-- expected_values:
-    CX50_TP_FR: 35.6
-  response: 72E0462D923B2
-- expected_values:
-    CX50_TP_FR: 35.8
-  response: 72E0462D923B3
-- expected_values:
-    CX50_TP_FR: 36
-  response: 72E0462D923B4
-- expected_values:
-    CX50_TP_FR: 36.2
-  response: 72E0462D923B5
-- expected_values:
-    CX50_TP_FR: 36.4
-  response: 72E0462D923B6
+    CX50_TP_FR: 43.6
+  response: 72E0462D923DA

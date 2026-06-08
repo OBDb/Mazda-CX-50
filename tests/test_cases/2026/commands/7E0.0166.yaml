@@ -1,0 +1,14 @@
+command_id: 7E0.0166
+test_cases:
+- expected_values:
+    MAFA: 4.3125
+    MAFA_SUP: 1
+    MAFB: 0
+    MAFB_SUP: 0
+  response: 7E807416601008A0000
+- expected_values:
+    MAFA: 29.40625
+    MAFA_SUP: 1
+    MAFB: 0
+    MAFB_SUP: 0
+  response: 7E80741660103AD0000
