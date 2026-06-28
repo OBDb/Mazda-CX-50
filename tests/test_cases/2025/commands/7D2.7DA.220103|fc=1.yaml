@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX50HYBRID_ODO_V2: 7992
   response: 7DA0762010302001F38
+- expected_values:
+    CX50HYBRID_ODO_V2: 10029
+  response: 7DA076201030200272D

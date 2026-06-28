@@ -4,29 +4,5 @@ test_cases:
     CX50HYBRID_COOL_T: 22
   response: 7DA04621F053E
 - expected_values:
-    CX50HYBRID_COOL_T: 23
-  response: 7DA04621F053F
-- expected_values:
-    CX50HYBRID_COOL_T: 30
-  response: 7DA04621F0546
-- expected_values:
-    CX50HYBRID_COOL_T: 36
-  response: 7DA04621F054C
-- expected_values:
-    CX50HYBRID_COOL_T: 41
-  response: 7DA04621F0551
-- expected_values:
-    CX50HYBRID_COOL_T: 46
-  response: 7DA04621F0556
-- expected_values:
-    CX50HYBRID_COOL_T: 50
-  response: 7DA04621F055A
-- expected_values:
-    CX50HYBRID_COOL_T: 54
-  response: 7DA04621F055E
-- expected_values:
-    CX50HYBRID_COOL_T: 57
-  response: 7DA04621F0561
-- expected_values:
-    CX50HYBRID_COOL_T: 61
-  response: 7DA04621F0565
+    CX50HYBRID_COOL_T: 92
+  response: 7DA04621F0584
