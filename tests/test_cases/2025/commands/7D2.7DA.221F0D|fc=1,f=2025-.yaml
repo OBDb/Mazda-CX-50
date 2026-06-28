@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX50HYBRID_VSS_V2: 0
   response: 7DA04621F0D00
+- expected_values:
+    CX50HYBRID_VSS_V2: 110
+  response: 7DA04621F0D6E
