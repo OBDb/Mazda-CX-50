@@ -4,5 +4,5 @@ test_cases:
     CX50HYBRID_COOL_T: 22
   response: 7DA04621F053E
 - expected_values:
-    CX50HYBRID_COOL_T: 92
-  response: 7DA04621F0584
+    CX50HYBRID_COOL_T: 93
+  response: 7DA04621F0585
