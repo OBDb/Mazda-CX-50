@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     CX50_TT_RR: 33
   response: 72E0462D92953
+- expected_values:
+    CX50_TT_RR: 37
+  response: 72E0462D92957

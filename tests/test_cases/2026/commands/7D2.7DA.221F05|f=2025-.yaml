@@ -10,5 +10,20 @@ test_cases:
     CX50HYBRID_COOL_T: 77
   response: 7DA04621F0575
 - expected_values:
+    CX50HYBRID_COOL_T: 78
+  response: 7DA04621F0576
+- expected_values:
+    CX50HYBRID_COOL_T: 79
+  response: 7DA04621F0577
+- expected_values:
     CX50HYBRID_COOL_T: 80
   response: 7DA04621F0578
+- expected_values:
+    CX50HYBRID_COOL_T: 81
+  response: 7DA04621F0579
+- expected_values:
+    CX50HYBRID_COOL_T: 90
+  response: 7DA04621F0582
+- expected_values:
+    CX50HYBRID_COOL_T: 91
+  response: 7DA04621F0583

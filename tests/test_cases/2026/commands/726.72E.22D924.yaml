@@ -22,5 +22,11 @@ test_cases:
     CX50_TP_RL: 36.6
   response: 72E0462D924B7
 - expected_values:
+    CX50_TP_RL: 36.8
+  response: 72E0462D924B8
+- expected_values:
+    CX50_TP_RL: 37.8
+  response: 72E0462D924BD
+- expected_values:
     CX50_TP_RL: 42
   response: 72E0462D924D2

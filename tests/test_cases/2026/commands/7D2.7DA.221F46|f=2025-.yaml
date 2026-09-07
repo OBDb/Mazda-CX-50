@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX50HYBRID_AAT: -4
   response: 7DA04621F4624
+- expected_values:
+    CX50HYBRID_AAT: 36
+  response: 7DA04621F464C
