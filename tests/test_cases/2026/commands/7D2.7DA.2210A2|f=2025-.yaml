@@ -12,3 +12,9 @@ test_cases:
   response: |-
     7DA100C6210A2800080
     7DA2100040080000000
+- expected_values:
+    CX50HYBRID_RM_TQ: 0
+    CX50HYBRID_RM_TQ_REQ: 1
+  response: |-
+    7DA100C6210A2800180
+    7DA2100040080000400

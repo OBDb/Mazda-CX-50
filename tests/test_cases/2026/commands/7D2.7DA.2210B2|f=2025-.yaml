@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX50HYBRID_INVRT_COOLANT_T: 15
   response: 7DA046210B237
+- expected_values:
+    CX50HYBRID_INVRT_COOLANT_T: 49
+  response: 7DA046210B259
