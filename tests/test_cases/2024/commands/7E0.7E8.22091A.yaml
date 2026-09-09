@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CX50_ETC_DSD_DEG: 4.05469
   response: 7E80562091A081C
+- expected_values:
+    CX50_ETC_DSD_DEG: 10.75
+  response: 7E80562091A1580
