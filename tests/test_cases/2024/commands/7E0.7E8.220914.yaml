@@ -7,5 +7,14 @@ test_cases:
     CX50_APP1_V: 0.795
   response: 7E805620914031B
 - expected_values:
+    CX50_APP1_V: 1.212
+  response: 7E80562091404BC
+- expected_values:
+    CX50_APP1_V: 1.505
+  response: 7E80562091405E1
+- expected_values:
+    CX50_APP1_V: 1.538
+  response: '7E8056209140602'
+- expected_values:
     CX50_APP1_V: 1.742
   response: 7E80562091406CE
