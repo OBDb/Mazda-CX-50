@@ -4,5 +4,5 @@ test_cases:
     CX50_TT_RR: -7
   response: 72E0462D9292B
 - expected_values:
-    CX50_TT_RR: 43
-  response: 72E0462D9295D
+    CX50_TT_RR: 45
+  response: 72E0462D9295F
