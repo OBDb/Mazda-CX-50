@@ -4,8 +4,8 @@ test_cases:
     CX50_FP_LD: 17.96597
   response: 7E8056203072DFE
 - expected_values:
-    CX50_FP_LD: 17.98581
-  response: 7E8056203072E0B
+    CX50_FP_LD: 18.37034
+  response: 7E8056203072F07
 - expected_values:
     CX50_FP_LD: 25.7023
   response: 7E80562030741CC
