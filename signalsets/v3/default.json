@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1074"}, "freq": 0.25, "filter": { "from": 2025 },
   "signals": [
     {"id": "CX50HYBRID_EOP", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 10, "div": 128, "unit": "kilopascal" }, "name": "Engine oil pressure"}
