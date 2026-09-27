@@ -4,11 +4,11 @@ test_cases:
     CX50_ETC_ACT_DEG: 0.73828
   response: 7E80562093C017A
 - expected_values:
-    CX50_ETC_ACT_DEG: 15
-  response: 7E80562093C1E00
+    CX50_ETC_ACT_DEG: 14
+  response: 7E80562093C1C00
 - expected_values:
     CX50_ETC_ACT_DEG: 19.49805
   response: 7E80562093C26FF
 - expected_values:
-    CX50_ETC_ACT_DEG: 57.48242
-  response: 7E80562093C72F7
+    CX50_ETC_ACT_DEG: 64.48242
+  response: 7E80562093C80F7
