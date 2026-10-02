@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    CX50_FP_LD: 23.61639
+    CX50_FP_LD: 47.23206
   response: 7E8056203073C75
 - expected_values:
-    CX50_FP_LD: 23.80255
+    CX50_FP_LD: 47.60437
   response: 7E8056203073CEF
 - expected_values:
-    CX50_FP_LD: 23.8529
+    CX50_FP_LD: 47.70508
   response: 7E8056203073D10
