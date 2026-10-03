@@ -10,6 +10,9 @@ test_cases:
     CX50_GEN_V: 14.25
   response: 7E8056216E90072
 - expected_values:
+    CX50_GEN_V: 14.375
+  response: 7E8056216E90073
+- expected_values:
     CX50_GEN_V: 14.625
   response: 7E8056216E90075
 - expected_values:
