@@ -7,8 +7,8 @@ test_cases:
     CX50_EOT: 26.56
   response: 7E8056213101A00
 - expected_values:
-    CX50_EOT: 62.39
-  response: 7E80562131027FF
+    CX50_EOT: 34.23
+  response: 7E8056213101CFF
 - expected_values:
     CX50_EOT: 98.26
   response: '7E8056213103602'
