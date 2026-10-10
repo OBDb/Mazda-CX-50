@@ -1,14 +1,14 @@
 command_id: 7E1.7E9.221E1C
 test_cases:
 - expected_values:
-    CX50_TRANS_T_V2: 53.7125
+    CX50_TRANS_T_V2: 12.0625
   response: 7E905621E1C00C1
 - expected_values:
-    CX50_TRANS_T_V2: 89.6
+    CX50_TRANS_T_V2: 32
   response: 7E905621E1C0200
 - expected_values:
-    CX50_TRANS_T_V2: 204.6875
+    CX50_TRANS_T_V2: 95.9375
   response: 7E905621E1C05FF
 - expected_values:
-    CX50_TRANS_T_V2: 205.475
+    CX50_TRANS_T_V2: 96.375
   response: 7E905621E1C0606
