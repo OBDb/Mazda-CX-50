@@ -1,6 +1,12 @@
 command_id: 7D2.7DA.221F9A|f=2025-
 test_cases:
 - expected_values:
+    CX50HYBRID_HVBAT_C: 141.2
+    CX50HYBRID_HVBAT_V: 236
+  response: |-
+    7DA1009621F9A0E003B
+    7DA2100058400000000
+- expected_values:
     CX50HYBRID_HVBAT_C: 43.9
     CX50HYBRID_HVBAT_V: 243
   response: |-
@@ -12,12 +18,6 @@ test_cases:
   response: |-
     7DA1009621F9A0E003D
     7DA2140019000000000
-- expected_values:
-    CX50HYBRID_HVBAT_C: 9.7
-    CX50HYBRID_HVBAT_V: 248
-  response: |-
-    7DA1009621F9A0E003E
-    7DA2100006100000000
 - expected_values:
     CX50HYBRID_HVBAT_C: -1.9
     CX50HYBRID_HVBAT_V: 253
@@ -37,11 +37,11 @@ test_cases:
     7DA1009621F9A0E0040
     7DA2140011F00000000
 - expected_values:
-    CX50HYBRID_HVBAT_C: -0.5
+    CX50HYBRID_HVBAT_C: -1
     CX50HYBRID_HVBAT_V: 269
   response: |-
     7DA1009621F9A0E0043
-    7DA2140FFFB00000000
+    7DA2140FFF600000000
 - expected_values:
     CX50HYBRID_HVBAT_C: -81.1
     CX50HYBRID_HVBAT_V: 340
